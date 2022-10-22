@@ -19,6 +19,5 @@ deploy_task:
     populate_script: npm ci
   name_script: git config --global user.name "Cirrus-CI"
   email_script: git config --global user.email "ci@cirruslabs.org"
-  # build_script: npm run build
   auth_script: echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
   deploy_script: npm run build && npx push-dir --dir=dist --branch=gh-pages --force --verbose
