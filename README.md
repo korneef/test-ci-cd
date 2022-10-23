@@ -1,4 +1,4 @@
-[![Build Status](https://api.cirrus-ci.com/github/korneef/AHJ_25_working-environment.svg)](https://cirrus-ci.com/github/korneef/AHJ_25_working-environment)
+[![Build Status](https://api.cirrus-ci.com/github/korneef/test-ci-cd.svg)](https://cirrus-ci.com/github/korneef/test-ci-cd)
 
 # Webpack5
 
