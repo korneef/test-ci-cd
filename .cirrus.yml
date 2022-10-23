@@ -1,5 +1,5 @@
 container:
-  image: node:latest
+  image: ubuntu:latest
 
 # test_task:
 #   name: Tests
