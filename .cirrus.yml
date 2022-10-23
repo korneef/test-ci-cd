@@ -18,7 +18,7 @@ deploy_task:
     ingerprint_script: cat package-lock.json
     populate_script: npm ci
   environment:
-    AUTH_TOKEN: ENCRYPTED[1b897378ed3f743b0883944cbd3f1977e1d746dc5b5296a32db793ea8ad1c14b21c2990ddd30f91374b38cb73445665b]
+    AUTH_TOKEN: $GITHUB_TOKEN
   deploy_script: 
     - git config --global user.name "Cirrus-CI"
     - git config --global user.email "ci@cirruslabs.org"
